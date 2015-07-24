@@ -9,16 +9,16 @@ from Tkinter import *
 root = Tk()
 #Naziv
 root.title("Prosek v0.0.1")
-naslov = Label(root, text="Prosek v0.0.1", bg="grey", fg="white")
+naslov = Label(root, text="Prosek v0.0.1")
 gornjiOkvir = Frame(root)
-gornjiOkvir.pack()
+gornjiOkvir.grid()
 donjiOkvir = Frame(root)
-donjiOkvir.pack(side=BOTTOM)
+donjiOkvir.grid(row=10, column=7)
 
 #Izgled
-dugme1 = Button(gornjiOkvir, text="Prosek", fg="green")
-dugme2 = Button(gornjiOkvir, text="Sacuvaj", fg="blue")
-dugme3 = Button(donjiOkvir, text="Izadji", fg="red")
+dugme_1 = Button(gornjiOkvir, text="Prosek", fg="green")
+dugme_2 = Button(gornjiOkvir, text="Sacuvaj", fg="blue")
+dugme_3 = Button(donjiOkvir, text="Izadji", fg="red")
 
 
 #Labeli
@@ -32,20 +32,22 @@ Label_7 = Label(root, text="Zemlja")
 #Predmet Labeli
 Predmet_1 = Label(root, text="Maternji jezik")
 Predmet_2 = Label(root, text="I Strani Jezik")
+Predmet_3 = Label(root, text="II Strani Jezik")
 #Prikazuje i pozicionira
-dugme1.pack(side="left")
-dugme2.pack(side="left")
-dugme3.pack(side="bottom")
-naslov.pack(side="bottom")
-#Labeli Pack
-Label_1.pack()
-Label_2.pack()
-Label_3.pack()
-Label_4.pack()
-Label_5.pack()
-Label_6.pack()
-Label_7.pack()
-#Predmeti Labeli Pack
-Predmet_1.pack()
-Predmet_2.pack()
+dugme_1.grid()
+dugme_2.grid()
+dugme_3.grid()
+naslov.grid()
+#Labeli Grid
+Label_1.grid(row=0)
+Label_2.grid(row=1)
+Label_3.grid(row=20, column=9)
+Label_4.grid()
+Label_5.grid()
+Label_6.grid()
+Label_7.grid()
+#Predmeti Labeli Grid
+Predmet_1.grid()
+Predmet_2.grid()
+Predmet_3.grid()
 root.mainloop()
