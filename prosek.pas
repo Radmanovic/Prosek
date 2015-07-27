@@ -6,8 +6,11 @@
 Program Prosek(output);
 {Variable's}
 var a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, s, P:Real;
-
+var ime, prezime: String;
 begin
+  {Informacije}
+  writeln('Unesite ime i prezime ucenika:');
+  readln(ime, prezime);
   {Predmeti}
   writeln('Unesite vasu ocenu iz maternjeg jezika');
   readln(a);
@@ -53,9 +56,11 @@ begin
   
   writeln('Unesite vasu ocenu iz vladanja');
   readln(o);
-    
+      
   s:=(a+b+c+d+e+f+g+h+i+j+k+l+m+n+o); {Sabira zbir svih ocena}
   P:=s/15; {Vrsi sracunavanje aritmeticke vrednosti}
+  write('Ime ucenika: ',ime,' ',prezime
+  read;
   writeln('Prosek: ',P); {Ispisuje aritmeticku vrednost}
   readln;
 end.
