@@ -59,8 +59,11 @@ begin
       
   s:=(a+b+c+d+e+f+g+h+i+j+k+l+m+n+o); {Sabira sve ocena}
   P:=s/15; {Vrsi sracunavanje aritmeticke vrednosti}
+  {Kraj}
   write('Ime ucenika: ',ime,' ',prezime);
   read;
   writeln('Prosek: ',P); {Ispisuje aritmeticku vrednost}
   readln;
+  write('Trenutno koristite verziju 0.0.1'); 
+  write('Hvala sto ste koristili program source code se nalazi na http://www.github.com/Radmanovic/Prosek');
 end.
