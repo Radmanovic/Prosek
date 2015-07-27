@@ -4,9 +4,9 @@
 {#                2015                    #}
 {##########################################}
 Program Prosek(output);
-{Variable's}
-var a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, s, P:Real;
-var ime, prezime: String;
+  {Variable's}
+  var a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, s, P:Real;
+  var ime, prezime: String;
 begin
   {Informacije}
   writeln('Unesite ime i prezime ucenika:');
