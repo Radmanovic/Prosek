@@ -4,9 +4,11 @@
 {#                2015                    #}
 {##########################################}
 Program Prosek(output);
-var a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, s, poruka, P:Real;
+{Variable's}
+var a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, s, P:Real;
+
 begin
-  writeln('Trenutno koristite verziju v0.0.1 programa prosek');
+  {Predmeti}
   writeln('Unesite vasu ocenu iz maternjeg jezika');
   readln(a);
   
@@ -52,10 +54,8 @@ begin
   writeln('Unesite vasu ocenu iz vladanja');
   readln(o);
     
-  s:=(a+b+c+d+e+f+g+h+i+j+k+l+m+n+o); 
-  P:=s/15;
-  writeln('Prosek: ',P); 
+  s:=(a+b+c+d+e+f+g+h+i+j+k+l+m+n+o); {Sabira zbir svih ocena}
+  P:=s/15; {Vrsi sracunavanje aritmeticke vrednosti}
+  writeln('Prosek: ',P); {Ispisuje aritmeticku vrednost}
   readln;
-  writeln('Hvala sto ste koristili verziju v0.0.1 programa Prosek');
-  readln(poruka); 
 end.
