@@ -1,6 +1,6 @@
-#**Prosek**
+#:octocat:**Prosek**:octocat:
 
-######Prosek je program za  sracunavanje srednje vrednosti ocena. 
-######Program je napisan u *pascal* programskom jeziku. 
-######Program je trenutno konzolnog tipa 
-######Trenutna verzija _v0.0.1_
+######:parking:Prosek je program za  sracunavanje srednje vrednosti ocena.:parking:
+######:parking:Program je napisan u *pascal* programskom jeziku.:parking:
+######:parking:Program je trenutno konzolnog tipa.:parking:
+######Trenutna verzija :octocat: _v0.0.1_ :octocat:
