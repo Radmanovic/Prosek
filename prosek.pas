@@ -6,6 +6,7 @@
 Program Prosek(output);
 var a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, s, poruka, P:Real;
 begin
+  writeln('Trenutno koristite verziju v0.0.1 programa prosek');
   writeln('Unesite vasu ocenu iz maternjeg jezika');
   readln(a);
   
