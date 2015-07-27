@@ -65,7 +65,7 @@ begin
   read;
   writeln('Prosek: ',P); {Ispisuje aritmeticku vrednost}
   readln;
- 
+  {Credits & Version}
   write('Trenutno koristite verziju 0.0.1'); 
   readln;
   write('Hvala sto ste koristili program source code se nalazi na http://www.github.com/Radmanovic/Prosek');
