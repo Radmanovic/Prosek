@@ -5,7 +5,7 @@
 {##########################################}
 Program Prosek(output);
   {Variable's}
-  var a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, s, P:Real;
+  var a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, s, izb, P:Real;
   var ime, prezime: String;
 begin
   {Informacije}
@@ -54,8 +54,12 @@ begin
   writeln('Unesite ocenu iz fizickog vaspitanja');
   readln(n);
   
+  writeln('Unesite ocenu iz verske nastave/gradjanskog vaspitanja');
+  readln(izb); 
+  
   writeln('Unesite ocenu iz vladanja');
   readln(o);
+  
   {Matematicke operacije}  
   s:=(a+b+c+d+e+f+g+h+i+j+k+l+m+n+o); {Sabira sve ocena}
   P:=s/15; {Vrsi sracunavanje aritmeticke vrednosti}
