@@ -6,11 +6,12 @@
 Program Prosek(output);
   {Variable's}
   var a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, s, izb, P:Real;
-  var ime, prezime, drzava, opstina, mesto, skola,: String;
+  var ime, prezime, drzava, opstina, mesto, skola:String;
+
 begin
   {Informacije}
   writeln('Unesite drzavu opstinu i mesto:');
-  readln(drzava, opstina, mesto,);
+  readln(drzava, opstina, mesto);
   
   writeln('Unesite ime skole:');
   readln(skola);
