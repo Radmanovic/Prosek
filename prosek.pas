@@ -68,9 +68,8 @@ begin
   readln(o);
   
   {Matematicke operacije}  
-  s:=(a+b+c+d+e+f+g+h+i+j+k+l+m+n+o); {Sabira sve ocena}
-  P:=s/15; {Vrsi sracunavanje aritmeticke vrednosti}
-  
+  sd:=(a+b+c+d+e+f+g+h+i+j+k+l+m+n+o); {Sabira sve ocena} {Društveno jezički smer}
+  P:=sd/15; {Vrsi sracunavanje aritmeticke vrednosti}
   {Kraj}
   write('Informacije: ',drzava,' ',opstina);
   read;
