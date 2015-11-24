@@ -13,6 +13,12 @@ Program Prosek(output);
   {/Variable's}
 
 begin
+  {Pocetak}
+  writeln('Prosek loading....');
+  writeln('===');
+  writeln('======');
+  writeln('========================');
+  {/Pocetak}
   
   {Informacije}
   
