@@ -7,7 +7,7 @@ Program Prosek(output);
   
   {Variable's}
   
-  var a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, s, P:Real;  {Number Variable's}
+  var a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, sd, P:Real;  {Number Variable's}
   var ime, prezime, drzava, opstina, mesto, izb, skola:String; {String Variable's}
 
   {/Variable's}
@@ -57,7 +57,7 @@ begin
     readln(i);
   
     writeln('Unesite ocenu iz latinskog jezika');
-    eadln(j);
+    readln(j);
   
     writeln('Unesite ocenu iz psihologije');
     readln(k);
