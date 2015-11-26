@@ -22,12 +22,14 @@ skole[1] = ["Komercijalista", "Turisticki tehnicar", "Masinski tehnicar"]
 
 #Gimnazije predmeti
 
+#Prirodno matematicki smer
 skole[0][0] = ["Matematika",
                "Srpski jezik",
                "Hemija",
                "Strani jezik",
                "Engleski"]
 
+#Drustveno-jezicki smer
 skole[0][1] = ["Matematika",
                "Srpski jezik",
                "Hemija",
@@ -35,6 +37,7 @@ skole[0][1] = ["Matematika",
                "Engleski",
                "Latinski jezik"]
 
+#Opsti smer
 skole[0][2] = ["Matematika",
                "Srpski jezik",
                "Hemija",
