@@ -1,0 +1,23 @@
+PREDMETI = {
+	"Srpski jezik",
+	"Hemija",
+	"Engleski jezik",
+	"Biologija",
+	"Matematika",
+	"Fizicko vaspitanje",
+	"Likovna kultura",
+	"Istorija",
+	"Nemacki jezik",
+	"Latinski jezik",
+	"Francuski jezik",
+	"Psihologija",
+	"Informatika",
+	"Muzicka kultura",
+	"Geografija",
+	"Ustav i pravo gradjana",
+	"Filozofija",
+	"Verska nastava"
+	"Gradjansko vaspitanje",
+	"Sociologija",
+	"Vladanje",
+}
