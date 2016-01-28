@@ -25,62 +25,62 @@ begin
     writeln('Unesite drzavu opstinu i mesto:');
     readln(drzava, opstina, mesto);
   
-    writeln('Unesite ime skole:');
+    writeln('Unesite ime skole: ');
     readln(skola);
   
-    writeln('Unesite ime i prezime ucenika:');
+    writeln('Unesite ime i prezime ucenika: ');
     readln(ime, prezime);
   
   {/Informacije}
   
   {Predmeti}
   
-    writeln('Unesite ocenu iz maternjeg jezika');
+    writeln('Unesite ocenu iz maternjeg jezika: ');
     readln(a);
   
-    writeln('Unesite ocenu iz I stranog jezika');
+    writeln('Unesite ocenu iz I stranog jezika: ');
     readln(b);
   
-    writeln('Unesite ocenu iz II stranog jezika');
+    writeln('Unesite ocenu iz II stranog jezika: ');
     readln(c);
   
-    writeln('Unesite ocenu iz fizike');
+    writeln('Unesite ocenu iz fizike: ');
     readln(d);
   
-    writeln('Unesite ocenu iz geografije');
+    writeln('Unesite ocenu iz geografije: ');
     readln(e);
   
-    writeln('Unesite ocenu iz hemije');
+    writeln('Unesite ocenu iz hemije: ');
     readln(f);
   
-    writeln('Unesite ocenu iz biologije');
+    writeln('Unesite ocenu iz biologije: ');
     readln(g);
   
-    writeln('Unesite ocenu iz matematike');
+    writeln('Unesite ocenu iz matematike: ');
     readln(h);
   
-    writeln('Unesite ocenu iz istorije');
+    writeln('Unesite ocenu iz istorije: ');
     readln(i);
   
-    writeln('Unesite ocenu iz latinskog jezika');
+    writeln('Unesite ocenu iz latinskog jezika: ');
     readln(j);
   
-    writeln('Unesite ocenu iz psihologije');
+    writeln('Unesite ocenu iz psihologije: ');
     readln(k);
   
-    writeln('Unesite ocenu iz likovne kulture');
+    writeln('Unesite ocenu iz likovne kulture: ');
     readln(l);
   
-    writeln('Unesite ocenu iz muziicke kulture');
+    writeln('Unesite ocenu iz muziicke kulture: ');
     readln(m);
   
-    writeln('Unesite ocenu iz fizickog vaspitanja');
+    writeln('Unesite ocenu iz fizickog vaspitanja: ');
     readln(n);
   
-    writeln('Unesite ocenu iz verske nastave/gradjanskog vaspitanja');
+    writeln('Unesite ocenu iz verske nastave/gradjanskog vaspitanja: ');
     readln(izb); 
   
-    writeln('Unesite ocenu iz vladanja');
+    writeln('Unesite ocenu iz vladanja: ');
     readln(o);
   
   {/Predmeti}
