@@ -1,4 +1,4 @@
-#:octocat:**Prosek**:octocat:
+:octocat:**Prosek**:octocat:
 
 :parking:Prosek je program za  sracunavanje srednje vrednosti ocena.:parking:
 :parking:Program je dostupan u *python* i *pascal* programskim jezicima.:parking:
